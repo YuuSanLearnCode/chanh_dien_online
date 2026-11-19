@@ -1,0 +1,8 @@
+node_modules/
+live/tts/
+live/.last_tiktok
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
