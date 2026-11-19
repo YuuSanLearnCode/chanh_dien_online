@@ -2,6 +2,26 @@
 
 Điện thờ **Thần Ganesha** (*Om Gam Ganapataye Namaha*) tương tác trực tiếp trên **TikTok LIVE**. Người xem bình luận sẽ bước vào bảo điện ngồi chiêm bái, gõ các từ khóa cầu nguyện để hiển thị **Popup & nhạc cầu nguyện** theo từng chủ đề, và khi tặng quà sẽ được **xướng tên hồi hướng** bằng giọng đọc tiếng Việt kèm bảng vinh danh Công Đức.
 
+## Giao diện hệ thống
+
+### 1. Màn hình phát LIVE (`live/overlay.html` — Tỷ lệ dọc 9:16 `1080×1920`)
+![Màn hình Overlay 9:16 Linh Quang Bảo Điện](assets/preview_overlay.jpg)
+
+- **Bảng hiệu bảo điện & Thống kê thời gian thực**: Hiển thị tên điện thờ (`LINH QUANG BẢO ĐIỆN`), dòng phụ, số lượng người đang ngồi thiền/chiêm bái (`36/36 đang thiền`) và đồng hồ đếm thời lượng phiên LIVE.
+- **Bảng hướng dẫn Cầu Nguyện (bên trái)**: Liệt kê rõ ràng 6 từ khóa cầu nguyện (**Cầu tài**, **Xóa nợ**, **Cầu duyên**, **Cầu tự**, **Bình an**, **Giải hạn**) với kích thước chữ lớn, tối ưu cho người xem trên điện thoại.
+- **Bảng xếp hạng Công Đức (bên phải)**: Tự động tổng hợp và vinh danh Top 5 tín chủ dâng quà nhiều nhất trong phiên LIVE.
+- **Sân chánh điện 2.5D**: Nhân vật của người xem bước vào ngồi kèm tên và ảnh đại diện TikTok, hiệu ứng hào quang, khói trầm, cánh hoa rơi và bong bóng lời nguyện.
+
+### 2. Bảng điều khiển trực tiếp (`live/control.html`)
+![Bảng điều khiển trực tiếp](assets/preview_control.jpg)
+
+- **Cột 1 — Kết nối TikTok LIVE & Danh sách người xem**: Nhập `@username` kênh đang phát LIVE để kết nối sự kiện thời gian thực (không cần mật khẩu hay cookie), mở nhanh cửa sổ Overlay 9:16 và theo dõi danh sách toàn bộ người đang ngồi trong sân.
+- **Cột 2 — Thử tương tác & Bot mô phỏng**: Cho phép gửi thử bình luận, thử hiệu ứng tặng quà (`Hoa hồng`, `Hoa sen`, `Chuông vàng`), đổ nhanh `15 / 36 / 64 / 100` người mẫu hoặc bật Bot tự động tương tác khi muốn kiểm tra giao diện trước giờ LIVE.
+- **Cột 3 — Giọng đọc, Nhạc & Cảnh**:
+  - Tùy chỉnh giọng đọc TTS (`Nam Minh` / `Hoài My`), độ trầm, tốc độ đọc, phát thông báo trực tiếp hoặc kích hoạt đọc kinh định kỳ.
+  - **4 thanh kéo âm lượng độc lập theo thời gian thực (`0% – 100%`)**: Điều chỉnh riêng biệt âm lượng **Nhạc nền**, **Nhạc Popup**, **Giọng đọc / Kinh**, và **Chuông & Mõ** ngay trong lúc đang phát LIVE.
+  - Thay đổi linh hoạt tên thiền đường, dòng phụ và giới hạn số chỗ ngồi.
+
 ## Cấu trúc dự án
 
 | Đường dẫn | Mô tả |
